@@ -429,10 +429,10 @@
 	        <div class="account_menu" id="my_name" hidden="hidden">
 				<ul>
 			      	 <li class="active sub">
-                     	<a href="#">Brian Lee(Broker)</a>
+                     	<a href="#">Alanis Morissette Long Name (Broker)<br/>(AmWest Funding Corp)</a>
 							<ul>
 								<li class='sub' style="height:58px;">
-									 <a href="#" style="height:58px;line-height:1.5; padding-top:10px;"><b>Brian Lee (Broker)</b><br>Broker Manager</a>
+									 <a href="#" style="height:58px;line-height:1.5; padding-top:10px;"><b>Alanis Morissette Long Name (Broker)</b><br>Broker Manager</a>
 								</li>
 								<li class='sub'>
 									<a href="#"><b>My Account</b></a>
