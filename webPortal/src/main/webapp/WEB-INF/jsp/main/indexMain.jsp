@@ -23,7 +23,7 @@
 		
 		 <%@ include file="/head.jsp" %>  
 			 
-
+ 
 <style>
  	.content-container {	
 	display: table;
