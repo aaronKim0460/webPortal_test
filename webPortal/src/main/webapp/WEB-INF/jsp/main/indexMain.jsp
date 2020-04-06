@@ -22,7 +22,7 @@
 		<script src="./js/AmWest.CommonControl.js"></script>
 		
 		 <%@ include file="/head.jsp" %>  
-			
+			 
 
 <style>
  	.content-container {	
