@@ -1,0 +1,300 @@
+﻿/*  Left Menu CSS  */      
+/*  Billy Kim 2020-03-27    */
+
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { border: 0; font-size: 100%; font: Open Sans; vertical-align: baseline; padding: 0; }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block; }
+html,textarea { overflow: auto; }
+body { line-height: 1; }
+ol,ul { list-style: none; }
+blockquote,q { quotes: none; }
+blockquote:before,blockquote:after,q:before,q:after { content: none; }
+table{ border-collapse: collapse; border-spacing: 0; }
+ img { 	position: relative;
+       left: 0px;
+       top: 3px;
+   }  
+:focus { outline: none; }
+/*end reset css*/
+
+
+.leftMenu-containerMain{
+	left: 50px;
+    top: 100px;
+	position: absolute;
+} 
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+body {
+	background: #fff;
+	font: 13px tahoma, arial, sans-serif;
+}
+
+/* .left-container { display: table; position: left; width: 340px; height: 1080px; margin-left: auto; margin-right: auto;  }
+ */
+
+#container {
+	width: 0px;
+	height: 250px;
+	padding-top: 200px;
+	margin-left: 15px;
+	position: absolute;
+	
+}
+
+
+nav {
+	width: 320px;
+
+	
+}
+nav ul li a {
+
+	font: 16px tahoma, arial, sans-serif;
+	font-weight:bold;
+	display: block;
+	height: 48px;
+	line-height: 50px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: #d9ddea;
+	
+		
+}
+
+ .home a:hover {
+	background-position:-200px 0;
+}
+
+.home span {
+	position: absolute;
+	right: 23px;
+	top: 12px;
+	color: #d9ddea;
+	text-shadow: rgba(0,0,0,0.25) 0 1px 0;
+} 
+
+
+.home {
+  background: #142D53 0% 0% no-repeat padding-box;
+  border: 2px solid #ffffff;
+  
+  
+}
+.home a {
+	background-position: 0 -120px;
+}
+
+
+.products {
+	border: 2px solid #ffffff;
+	background: #142D53 0% 0% no-repeat padding-box;
+	position: relative;
+}
+.products ul {
+   height: 0; 
+  	overflow: hidden;
+  	-webkit-transition: height linear .3s;
+    -moz-transition: height linear .3s;
+    -o-transition: height linear .3s;
+    transition: height linear .3s; 
+}
+.products:hover ul {
+	height: 121px;
+}
+
+.products>a {
+	background-position: 0 -40px;
+
+}
+.products>a:hover {
+	background-position: -200px -40px;
+}
+.products ul li a { 
+	background-position: 0 -80px;
+	font: 14px tahoma, arial, sans-serif;
+	font-weight:bold;	
+	display: block;
+	height: 28px;
+	line-height: 10px;
+	padding-left: 50px;
+	text-decoration: none;
+	color: #d9ddea;	
+}
+.products ul li a:hover {
+	background-position: -200px -80px;
+}
+
+
+
+
+
+
+.tools {
+	border: 2px solid #ffffff;
+	background: #142D53 0% 0% no-repeat padding-box;
+	position: relative;
+}
+.tools ul {
+   height: 0; 
+  	overflow: hidden;
+  	-webkit-transition: height linear .3s;
+    -moz-transition: height linear .3s;
+    -o-transition: height linear .3s;
+    transition: height linear .3s; 
+}
+.tools:hover ul {
+	height: 220px;
+}
+
+.tools>a {
+	background-position: 0 -40px;
+
+}
+.tools>a:hover {
+	background-position: -200px -40px;
+}
+.tools ul li a { 
+	background-position: 0 -80px;
+	font: 14px tahoma, arial, sans-serif;
+	font-weight:bold;	
+	display: block;
+	height: 28px;
+	line-height: 10px;
+	padding-left: 50px;
+	text-decoration: none;
+	color: #d9ddea;	
+}
+.tools ul li a:hover {
+	background-position: -200px -80px;
+}
+
+.announcement {
+	border: 2px solid #ffffff;
+	background: #142D53 0% 0% no-repeat padding-box;
+	position: relative;
+}
+.announcement ul {
+   height: 0; 
+  	overflow: hidden;
+  	-webkit-transition: height linear .3s;
+    -moz-transition: height linear .3s;
+    -o-transition: height linear .3s;
+    transition: height linear .3s; 
+}
+.announcement:hover ul {
+	height: 90px;
+}
+
+.announcement>a {
+	background-position: 0 -40px;
+
+}
+.announcement>a:hover {
+	background-position: -200px -40px;
+}
+.announcement ul li a { 
+	background-position: 0 -80px;
+	font: 14px tahoma, arial, sans-serif;
+	font-weight:bold;	
+	display: block;
+	height: 28px;
+	line-height: 10px;
+	padding-left: 50px;
+	text-decoration: none;
+	color: #d9ddea;	
+}
+.announcement ul li a:hover {
+	background-position: -200px -80px;
+}
+
+/* 
+.tools {
+	border: 2px solid #ffffff;
+	background: #142D53 0% 0% no-repeat padding-box;
+	position: relative;
+}
+.tools ul {
+   height: 0; 
+  	overflow: hidden;
+  	-webkit-transition: height linear .3s;
+    -moz-transition: height linear .3s;
+    -o-transition: height linear .3s;
+    transition: height linear .3s; 
+}
+.tools:hover ul {
+	height: 121px;
+}
+.tools>a {
+	background-position: 0 -40px;
+
+}
+.tools>a:hover {
+	background-position: -200px -40px;
+}
+.tools ul li a { 
+	background-position: 0 -80px;
+	font: 14px tahoma, arial, sans-serif;
+	font-weight:bold;	
+	display: block;
+	height: 28px;
+	line-height: 10px;
+	padding-left: 50px;
+	text-decoration: none;
+	color: #d9ddea;	
+}
+.tools ul li a:hover {
+	background-position: -200px -80px;
+} */
+
+
+
+
+
+.plus_minus {
+		position:absolute; top:16px; left:278px;
+}
+
+
+.search_box {
+	position: absolute;
+	top: -64px;
+	left: 3px;
+	width: 254px;
+	height: 39px;
+
+}
+
+.search_text {
+	top: 10px;
+	left: 10px;
+	width: 275px;
+	height: 35px;
+	text-align: left;
+	font: 14px tahoma, arial, sans-serif;
+	letter-spacing: 0;
+	/* color: #CCCCCC; */
+	opacity: 1;
+}
+
+.search_button {
+	position: absolute;
+	top: -52px;
+	left: 290px;
+	width: 21px;
+	height: 17px;
+	/* background: transparent url('../images/btnSearch.png') 0% 0% no-repeat padding-box; */
+	opacity: 1;
+}
+
+

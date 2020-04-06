@@ -1,0 +1,171 @@
+/*  Footer CSS  */      
+/*  Billy Kim 2020-03-27    */
+/* 2020-04-01 font 수정 */
+/* 2020-04-03 accessibility 추가 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*  div {
+	position: relative;
+}  */ 
+
+
+.aaaaa{
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	text-align: left;
+	font: Normal 14px/17px Open Sans;
+	letter-spacing: 0;
+	color: #142D53;
+	opacity: 1;
+}
+	
+/*
+ .footer-container { 
+	display: table;
+	position: absolute;
+	position: relative;
+	width: 1920px;
+	height: 151px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+	left: 0px;
+ }
+ */
+ 
+ 
+  .footer-container { 
+	display: table;
+
+	width: 1900px;
+	height: 151px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+	left: 0px;
+ }
+ .footer-container div{ 
+	 position: absolute; 
+} 
+
+.footer_top {
+	top: 90%;
+	width: 1900px;
+	height: 92px;
+	background: #EAEAEA 0% 0% no-repeat padding-box;
+	opacity: 1;
+	
+}
+
+.footer_bottom {
+	top: 90%;
+	width: 1900px;
+	height: 63px;
+	background: #142D53 0% 0% no-repeat padding-box;
+	opacity: 1;
+	margin-top: 91px;
+}
+
+
+
+
+
+.bottom_logo {
+	top: 26px;
+	left: 46px;
+	width: 189px;
+	height: 44px;
+	opacity: 1;
+	background: transparent url('../images/bottom_logo.png') 0% 0% no-repeat padding-box;
+	background-size : 100%;
+}
+
+.bottom_text1 {
+	top: 21px;
+	left: 276px;
+	width: 380px;
+	height: 56px;
+	text-align: left;
+	font: Normal 14px/20px Open Sans;
+	letter-spacing: 0;
+	color: #142D53;
+}
+.bottom_path {
+	top: 5px;
+	left: 46px;
+	width: 44px;
+	height: 49px;
+	/* UI Properties */
+	opacity: 1;
+	background: transparent url('../images/path_2.png') 0% 0% no-repeat padding-box;
+	background-size : 100%;
+	
+}
+
+.bottom_text2 {
+	top: 10px;
+	left: 103px;
+	width: 760px;
+	height: 39px;
+	/* UI Properties */
+	text-align: left;
+	font: Normal 14px/19px Open Sans;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	
+}
+
+.bottom_menu_text {
+	top: 40px; /*	left: 1070px;*/ /*	width: 110px;*/;
+	height: 17px;
+	text-align: left;
+	font: Normal 14px/17px Open Sans;
+	letter-spacing: 0;
+	color: #142D53;
+	opacity: 1;
+}
+
+/*accessibility section */
+.accessibility-section {
+	margin-top:-66px;
+	height:100px;
+	top: 113%;
+    width: 100%;
+	background: #142D53 0% 0% no-repeat padding-box;
+	text-align: left;
+	font: Normal 10px/14px Open Sans;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;	s
+    text-transform: uppercase;
+	}
+
+.bottom_accessibility {
+	padding-top:10px;
+	width:1810px;			
+	left:41px;
+}
+.accessibility-section .accessibility-container {
+    width: 100%;
+}
+
+.accessibility-section .accessibility-container td {
+    vertical-align: top;
+}
+
+.accessibility-section .accessibility-container td:first-child {
+    width: 150px;
+    padding-top: 5px;
+}
+
+.accessibility-section .accessibility-container td:first-child > i {
+    margin-top:10px;
+    border: 1px solid #ADADAD;
+    padding: 10px;
+    margin-right: 5px;
+}

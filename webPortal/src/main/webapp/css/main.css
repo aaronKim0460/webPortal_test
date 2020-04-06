@@ -1,0 +1,8 @@
+﻿/*  Footer CSS  */      
+/*  Billy Kim 2020-03-27    */
+
+div {
+	position: absolute;
+}
+
+.main-container { display: table; position: relative; width: 1920px; height: 151px; margin-left: auto; margin-right: auto;  }

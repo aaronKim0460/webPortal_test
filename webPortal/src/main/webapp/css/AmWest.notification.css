@@ -1,0 +1,58 @@
+/*********************************************************************************/
+/* NOTE: This file is being integrated into AmWestfunding.com, Edit with Caution */
+/*********************************************************************************/
+
+/* WebPortal Utils: Notification */
+.WebPortal-nWrapper, .WebPortal-wWrapper {
+    position: fixed;
+    top: 32%;
+    left: 50%;
+    margin-left: -420px;
+    height: 100px;
+    padding: 0 30px;
+    line-height: 100px;
+    z-index: 1000001;
+    display: none;
+    background: rgba(0, 102, 0,.7);
+    color: #fff;
+}
+
+.WebPortal-wWrapper {
+    background: rgba(255,0,0,.7);
+}
+
+.WebPortal-nContainer, .WebPortal-wContainer {
+    margin: auto;
+    position: relative;
+}
+
+.WebPortal-nDefaultClose, .WebPortal-wDefaultClose {
+    position: absolute;
+    top: 44px;
+    right: 8px;
+    height: 16px;
+    width: 16px;
+    background: url('/Content/images/icon-close-white.png') no-repeat;
+    background-size: 16px 16px;
+}
+
+    .WebPortal-nDefaultClose a, .WebPortal-wDefaultClose a {
+        display: block;
+        width: 16px;
+        height: 16px;
+        text-indent: -10000px;
+    }
+
+.WebPortal-nContent, .WebPortal-wContent {
+    width: 100%;
+    overflow: auto;
+    text-align: left;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.7em;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    background: url('/Content/images/notifications/success-icon.png') no-repeat 0 50%;
+    padding-left: 50px;
+}

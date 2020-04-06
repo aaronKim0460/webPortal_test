@@ -1,0 +1,1255 @@
+﻿/*  Common CSS  */      
+/*  Billy Kim 2020-04-02    */
+
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Orbitron);
+
+@import url('menu.css');  
+
+div {
+	position:absolute;
+}
+
+
+.welcome_msg {
+    top: 120px;
+    left: 340px;
+    width: 817px;
+    height: 44px;
+    /* UI Properties */
+    text-align: center;
+    font: Bold 35px/42px Open Sans;
+    letter-spacing: 0px;
+    color: #142D53;
+    opacity: 1;
+}
+
+
+
+
+
+
+#ellipse_22 {
+	top: 0px;
+	left: 0px;
+	width: 42px;
+	height: 43px;
+	-ms-border-radius: 21px / 21.5px;
+	-o-border-radius: 21px / 21.5px;
+	-moz-border-radius: 21px / 21.5px;
+	-webkit-border-radius: 21px / 21.5px;
+	border-radius: 21px / 21.5px;
+	background:rgba(20,45,83,255);
+}
+
+
+#path_2305 {
+	top: 7px;
+	left: 7px;
+	width: 26.935913085938px;
+	height: 29.960266113281px;
+}
+
+
+
+
+
+
+
+#group_1347 {
+	top: 1080px;
+	left: 0px;
+	width: 1920px;
+	height: 151px;
+}
+
+#rectangle_36 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 92px;
+	background:rgba(234,234,234,255);
+}
+
+
+#rectangle_37 {
+	top: 92px;
+	left: 0px;
+	width: 1920px;
+	height: 59px;
+	background:rgba(20,45,83,255);
+}
+
+#group_354 {
+	top: 97px;
+	left: 46px;
+	width: 43.883972167969px;
+	height: 48.999877929688px;
+}
+
+#path_365 {
+	top: 0px;
+	left: 0px;
+	width: 43.883972167969px;
+	height: 38.237182617188px;
+}
+
+
+#rectangle_501 {
+	top: 16px;
+	left: 14px;
+	width: 15.214462280273px;
+	height: 6.2418212890625px;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_502 {
+	top: 23px;
+	left: 14px;
+	width: 15.214462280273px;
+	height: 6.2418212890625px;
+	background:rgba(255,255,255,255);
+}
+
+
+#equal_housing_opportunity {
+	top: 40px;
+	left: 2px;
+	width: 43px;
+	height: 10px;
+	font-family: Arial;
+	font-size: 4.5px;
+	text-align: center;
+	color:#ffffff;
+}
+
+
+#equal_housing_lender____2020_amwest_funding_corp__some_products_may_not_be_available_in_all_states__this_is_not_a_commitment_to_lend__restrictions_apply_ {
+	top: 102px;
+	left: 103px;
+	width: 666px;
+	height: 49px;
+	overflow: hidden;
+	font-family: Open Sans;
+	font-size: 14px;
+	text-align: left;
+	line-height: 14px;
+	color:#ffffff;
+}
+
+#group_355 {
+	top: 26px;
+	left: 46px;
+	width: 188.9998626709px;
+	height: 44.322631835938px;
+}
+
+#path_343 {
+	top: 9px;
+	left: 66px;
+	width: 22.065444946289px;
+	height: 23.312377929688px;
+}
+
+
+#path_344 {
+	top: 15px;
+	left: 90px;
+	width: 29.756744384766px;
+	height: 17.643798828125px;
+}
+
+
+#path_345 {
+	top: 9px;
+	left: 116px;
+	width: 30.8828125px;
+	height: 23.312377929688px;
+}
+
+
+#path_346 {
+	top: 15px;
+	left: 145px;
+	width: 16.001922607422px;
+	height: 17.979858398438px;
+}
+
+
+#path_347 {
+	top: 15px;
+	left: 162px;
+	width: 14.998443603516px;
+	height: 17.948120117188px;
+}
+
+
+#path_348 {
+	top: 11px;
+	left: 178px;
+	width: 11.385284423828px;
+	height: 22.200439453125px;
+}
+
+#group_351 {
+	top: 38px;
+	left: 123px;
+	width: 65.437866210938px;
+	height: 6.099365234375px;
+}
+
+#path_349 {
+	top: 0px;
+	left: 0px;
+	width: 3.2489013671875px;
+	height: 5.948486328125px;
+}
+
+
+#path_350 {
+	top: 0px;
+	left: 5px;
+	width: 4.1824035644531px;
+	height: 6.0218505859375px;
+}
+
+
+#path_351 {
+	top: 0px;
+	left: 12px;
+	width: 4.1073913574219px;
+	height: 5.948486328125px;
+}
+
+
+#path_352 {
+	top: 0px;
+	left: 18px;
+	width: 4.3507537841797px;
+	height: 5.948486328125px;
+}
+
+
+#path_353 {
+	top: 0px;
+	left: 25px;
+	width: 1.0701904296875px;
+	height: 5.948486328125px;
+}
+
+
+#path_354 {
+	top: 0px;
+	left: 28px;
+	width: 4.1073608398438px;
+	height: 5.948486328125px;
+}
+
+
+#path_355 {
+	top: 0px;
+	left: 34px;
+	width: 4.6174621582031px;
+	height: 6.099365234375px;
+}
+
+
+#path_356 {
+	top: 0px;
+	left: 44px;
+	width: 3.5364074707031px;
+	height: 6.099365234375px;
+}
+
+
+#path_357 {
+	top: 0px;
+	left: 49px;
+	width: 4.5032653808594px;
+	height: 6.099365234375px;
+}
+
+
+#path_358 {
+	top: 0px;
+	left: 56px;
+	width: 4.0640258789062px;
+	height: 5.948486328125px;
+}
+
+
+#path_359 {
+	top: 0px;
+	left: 62px;
+	width: 3.8623352050781px;
+	height: 5.948486328125px;
+}
+
+
+#path_360 {
+	top: 24px;
+	left: 7px;
+	width: 51.781219482422px;
+	height: 19.812744140625px;
+}
+
+
+#path_361 {
+	top: 0px;
+	left: 0px;
+	width: 64.779495239258px;
+	height: 24.578491210938px;
+}
+
+
+#_6_pointe_drive__suite_300__brea__ca_92821_office___714__831_3333__fax___714__905_5677 {
+	top: 20px;
+	left: 276px;
+	width: 269px;
+	height: 42px;
+	font-family: Basic Sans;
+	font-size: 14px;
+	text-align: left;
+	color:#142d53;
+}
+
+
+#nmls____167441_____www_nmlsconsumeraccess_org {
+	top: 59px;
+	left: 276px;
+	width: 312px;
+	height: 22px;
+	font-family: Basic Sans;
+	font-size: 14px;
+	text-align: left;
+	color:#142d53;
+}
+
+
+#privacy {
+	top: 39px;
+	left: 1388px;
+	width: 58px;
+	height: 22px;
+	font-family: Basic Sans;
+	font-size: 14px;
+	text-align: left;
+	color:#142d53;
+}
+
+
+#correspondent {
+	top: 39px;
+	left: 1615px;
+	width: 119px;
+	height: 22px;
+	font-family: Basic Sans;
+	font-size: 14px;
+	text-align: left;
+	color:#142d53;
+}
+
+
+#term_of_use {
+	top: 39px;
+	left: 1239px;
+	width: 90px;
+	height: 22px;
+	font-family: Basic Sans;
+	font-size: 14px;
+	text-align: left;
+	color:#142d53;
+}
+
+
+#licensed_states {
+	top: 39px;
+	left: 1070px;
+	width: 113px;
+	height: 22px;
+	font-family: Basic Sans;
+	font-size: 14px;
+	text-align: left;
+	color:#142d53;
+}
+
+
+#policies {
+	top: 39px;
+	left: 1500px;
+	width: 61px;
+	height: 22px;
+	font-family: Basic Sans;
+	font-size: 14px;
+	text-align: left;
+	color:#142d53;
+}
+
+
+#site_map {
+	top: 39px;
+	left: 1787px;
+	width: 64px;
+	height: 22px;
+	font-family: Basic Sans;
+	font-size: 14px;
+	text-align: left;
+	color:#142d53;
+}
+
+
+
+
+
+
+#ellipse_1 {
+	top: 0px;
+	left: 0px;
+	width: 10.093658447266px;
+	height: 10.093872070312px;
+	-ms-border-radius: 7.04683256149292px / 7.046937942504883px;
+	-o-border-radius: 7.04683256149292px / 7.046937942504883px;
+	-moz-border-radius: 7.04683256149292px / 7.046937942504883px;
+	-webkit-border-radius: 7.04683256149292px / 7.046937942504883px;
+	border-radius: 7.04683256149292px / 7.046937942504883px;
+	border: 2px solid #707070;
+	background:rgba(255,255,255,0);
+}
+
+
+#path_15 {
+	top: 10px;
+	left: 10px;
+	width: 10.544189453125px;
+	height: 8.9697418212891px;
+}
+
+
+#enter_borrower_name_or_loan__ {
+	top: 130px;
+	left: 74px;
+	width: 179px;
+	height: 19px;
+	font-family: Open Sans;
+	font-size: 12px;
+	text-align: left;
+	color:#cccccc;
+}
+
+
+
+
+#group_1474 {
+	top: 7px;
+	left: 9px;
+	width: 10.869018554688px;
+	height: 10.132858276367px;
+}
+
+#ellipse_53 {
+	top: 0px;
+	left: 2px;
+	width: 6.3583984375px;
+	height: 6.3583450317383px;
+	-ms-border-radius: 3.17919921875px / 3.17919921875px;
+	-o-border-radius: 3.17919921875px / 3.17919921875px;
+	-moz-border-radius: 3.17919921875px / 3.17919921875px;
+	-webkit-border-radius: 3.17919921875px / 3.17919921875px;
+	border-radius: 3.17919921875px / 3.17919921875px;
+	background:rgba(7,34,66,255);
+}
+
+#group_1473 {
+	top: 5px;
+	left: 0px;
+	width: 10.869018554688px;
+	height: 5.2069778442383px;
+}
+
+#group_1472 {
+	top: 0px;
+	left: 0px;
+	width: 10.869018554688px;
+	height: 5.2069778442383px;
+}
+
+#group_1477 {
+	top: 0px;
+	left: 0px;
+	width: 10.869018554688px;
+	height: 10.132858276367px;
+}
+
+#ellipse_55 {
+	top: 0px;
+	left: 2px;
+	width: 6.3583984375px;
+	height: 6.358341217041px;
+	-ms-border-radius: 3.17919921875px / 3.17919921875px;
+	-o-border-radius: 3.17919921875px / 3.17919921875px;
+	-moz-border-radius: 3.17919921875px / 3.17919921875px;
+	-webkit-border-radius: 3.17919921875px / 3.17919921875px;
+	border-radius: 3.17919921875px / 3.17919921875px;
+	background:rgba(7,34,66,255);
+}
+
+#group_1476 {
+	top: 5px;
+	left: 0px;
+	width: 10.869018554688px;
+	height: 5.2069778442383px;
+}
+
+#group_1475 {
+	top: 0px;
+	left: 0px;
+	width: 10.869018554688px;
+	height: 5.2069778442383px;
+}
+
+
+#path_2398 {
+	top: 11px;
+	left: 1px;
+	width: 8.3133544921875px;
+	height: 6.0936889648438px;
+}
+
+
+#path_2399 {
+	top: 0px;
+	left: 10px;
+	width: 8.3135986328125px;
+	height: 6.0938415527344px;
+}
+
+
+
+
+
+#group_424 {
+	top: 19px;
+	left: 27.000137329102px;
+	width: 255.99546813965px;
+	height: 60.033599853516px;
+}
+
+#path_343_ek1 {
+	top: 12px;
+	left: 90px;
+	width: 29.887062072754px;
+	height: 31.575820922852px;
+}
+
+
+#path_344_ek1 {
+	top: 20px;
+	left: 121px;
+	width: 40.304763793945px;
+	height: 23.898025512695px;
+}
+
+
+#path_345_ek1 {
+	top: 12px;
+	left: 158px;
+	width: 41.82991027832px;
+	height: 31.575820922852px;
+}
+
+
+#path_346_ek1 {
+	top: 20px;
+	left: 197px;
+	width: 21.674194335938px;
+	height: 24.353141784668px;
+}
+
+
+#path_347_ek1 {
+	top: 20px;
+	left: 220px;
+	width: 20.31494140625px;
+	height: 24.310081481934px;
+}
+
+
+#path_348_ek1 {
+	top: 15px;
+	left: 241px;
+	width: 15.421081542969px;
+	height: 30.069854736328px;
+}
+
+#group_351_ek1 {
+	top: 52px;
+	left: 167px;
+	width: 88.633834838867px;
+	height: 8.2614212036133px;
+}
+
+#path_349_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 4.4005432128906px;
+	height: 8.0570907592773px;
+}
+
+
+#path_350_ek1 {
+	top: 0px;
+	left: 7px;
+	width: 5.6649475097656px;
+	height: 8.1564407348633px;
+}
+
+
+#path_351_ek1 {
+	top: 0px;
+	left: 16px;
+	width: 5.5633239746094px;
+	height: 8.0570907592773px;
+}
+
+
+#path_352_ek1 {
+	top: 0px;
+	left: 25px;
+	width: 5.8929748535156px;
+	height: 8.0570907592773px;
+}
+
+
+#path_353_ek1 {
+	top: 0px;
+	left: 33px;
+	width: 1.4495239257812px;
+	height: 8.0570907592773px;
+}
+
+
+#path_354_ek1 {
+	top: 0px;
+	left: 38px;
+	width: 5.5633239746094px;
+	height: 8.0570907592773px;
+}
+
+
+#path_355_ek1 {
+	top: 0px;
+	left: 47px;
+	width: 6.2542114257812px;
+	height: 8.2614212036133px;
+}
+
+
+#path_356_ek1 {
+	top: 0px;
+	left: 59px;
+	width: 4.7899627685547px;
+	height: 8.2614212036133px;
+}
+
+
+#path_357_ek1 {
+	top: 0px;
+	left: 66px;
+	width: 6.0995788574219px;
+	height: 8.2614212036133px;
+}
+
+
+#path_358_ek1 {
+	top: 0px;
+	left: 75px;
+	width: 5.504638671875px;
+	height: 8.0570907592773px;
+}
+
+
+#path_359_ek1 {
+	top: 0px;
+	left: 83px;
+	width: 5.2313537597656px;
+	height: 8.0570907592773px;
+}
+
+
+#path_360_ek1 {
+	top: 33px;
+	left: 9px;
+	width: 70.136352539062px;
+	height: 26.835636138916px;
+}
+
+
+#path_361_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 87.742141723633px;
+	height: 33.290824890137px;
+}
+
+
+#rectangle_1498 {
+	top: 182px;
+	left: 19px;
+	width: 320px;
+	height: 60px;
+	background:rgba(63,110,181,255);
+}
+
+
+#rectangle_1493 {
+	top: 442px;
+	left: 19px;
+	width: 320px;
+	height: 60px;
+	background:rgba(20,45,83,255);
+}
+
+
+#rectangle_1496 {
+	top: 312px;
+	left: 19px;
+	width: 320px;
+	height: 60px;
+	background:rgba(20,45,83,255);
+}
+
+
+#rectangle_1482 {
+	top: 637px;
+	left: 19px;
+	width: 320px;
+	height: 60px;
+	background:rgba(20,45,83,255);
+}
+
+
+#rectangle_1497 {
+	top: 247px;
+	left: 19px;
+	width: 320px;
+	height: 60px;
+	background:rgba(20,45,83,255);
+}
+
+
+#rectangle_1483 {
+	top: 507px;
+	left: 19px;
+	width: 320px;
+	height: 60px;
+	background:rgba(20,45,83,255);
+}
+
+
+#rectangle_1515 {
+	top: 572px;
+	left: 19px;
+	width: 320px;
+	height: 60px;
+	background:rgba(20,45,83,255);
+}
+
+
+#rectangle_1495 {
+	top: 377px;
+	left: 19px;
+	width: 320px;
+	height: 60px;
+	background:rgba(20,45,83,255);
+}
+
+
+#rectangle_1484 {
+	top: 702px;
+	left: 19px;
+	width: 320px;
+	height: 60px;
+	background:rgba(20,45,83,255);
+}
+
+
+#rectangle_1485 {
+	top: 767px;
+	left: 19px;
+	width: 320px;
+	height: 60px;
+	background:rgba(20,45,83,255);
+}
+
+
+#home {
+	top: 199px;
+	left: 89px;
+	width: 64px;
+	height: 31px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#products {
+	top: 459px;
+	left: 89px;
+	width: 88px;
+	height: 31px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#create_loan {
+	top: 329px;
+	left: 89px;
+	width: 117px;
+	height: 31px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#tools {
+	top: 654px;
+	left: 89px;
+	width: 55px;
+	height: 31px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#appraisal {
+	top: 589px;
+	left: 89px;
+	width: 92px;
+	height: 31px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#product_finder {
+	top: 264px;
+	left: 89px;
+	width: 143px;
+	height: 31px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#rate_sheets {
+	top: 524px;
+	left: 89px;
+	width: 114px;
+	height: 31px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#pipeline {
+	top: 394px;
+	left: 89px;
+	width: 79px;
+	height: 31px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#announcement {
+	top: 719px;
+	left: 89px;
+	width: 149px;
+	height: 31px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#manage_accounts {
+	top: 784px;
+	left: 89px;
+	width: 170px;
+	height: 31px;
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: left;
+	color:#ffffff;
+}
+
+
+#rectangle_1486 {
+	top: 665.888671875px;
+	left: 310px;
+	width: 12px;
+	height: 2.2222290039062px;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_1517 {
+	top: 470.888671875px;
+	left: 310px;
+	width: 12px;
+	height: 2.2222290039062px;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_1487 {
+	top: 660.99975585938px;
+	left: 314.88909912109px;
+	width: 2.2222290039062px;
+	height: 12.000061035156px;
+	
+	-ms-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	transform:rotate(90deg);
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_1516 {
+	top: 465.99975585938px;
+	left: 314.88909912109px;
+	width: 2.2222290039062px;
+	height: 12.000061035156px;
+	
+	-ms-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	transform:rotate(90deg);
+	background:rgba(255,255,255,255);
+}
+
+
+#union_10 {
+	top: 726px;
+	left: 310px;
+	width: 12px;
+	height: 12px;
+}
+
+
+#union_11 {
+	top: 791px;
+	left: 310px;
+	width: 12px;
+	height: 12px;
+}
+
+#group_1461 {
+	top: 202px;
+	left: 43.999633789062px;
+	width: 20px;
+	height: 19.60595703125px;
+}
+
+#path_2375 {
+	top: 1px;
+	left: 14px;
+	width: 3.4449462890625px;
+	height: 6.019775390625px;
+}
+
+#group_1460 {
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 19.60595703125px;
+}
+
+#path_2376 {
+	top: 0px;
+	left: 2px;
+	width: 16.250610351562px;
+	height: 19.301513671875px;
+}
+
+#group_1459 {
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 10.575805664062px;
+}
+
+#path_2377 {
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 10.575805664062px;
+}
+
+#group_1462 {
+	top: 267px;
+	left: 44px;
+	width: 20px;
+	height: 20.799926757812px;
+}
+
+#rectangle_1499 {
+	top: 19px;
+	left: 6px;
+	width: 8px;
+	height: 1.6000061035156px;
+	background:rgba(255,255,255,255);
+}
+
+
+#path_2378 {
+	top: 0px;
+	left: 8px;
+	width: 3.55419921875px;
+	height: 18.888427734375px;
+}
+
+
+#path_2379 {
+	top: 5px;
+	left: 0px;
+	width: 8.888671875px;
+	height: 3.55517578125px;
+}
+
+
+#path_2380 {
+	top: 8px;
+	left: 11px;
+	width: 8.888671875px;
+	height: 3.555419921875px;
+}
+
+#group_1463 {
+	top: 333px;
+	left: 44px;
+	width: 20px;
+	height: 17.333557128906px;
+}
+
+#subtraction_2 {
+	top: -1px;
+	left: -1px;
+	width: 21px;
+	height: 18.333587646484px;
+}
+
+
+#path_2385 {
+	top: 397.00003051758px;
+	left: 44.00048828125px;
+	width: 20.00048828125px;
+	height: 20.000854492188px;
+}
+
+#group_1464 {
+	top: 460.99984741211px;
+	left: 43.999633789062px;
+	width: 19.999877929688px;
+	height: 21.415740966797px;
+}
+
+#path_2386 {
+	top: 7px;
+	left: 0px;
+	width: 9.26171875px;
+	height: 14.469299316406px;
+}
+
+
+#path_2387 {
+	top: 7px;
+	left: 11px;
+	width: 9.2615966796875px;
+	height: 14.469299316406px;
+}
+
+
+#path_2388 {
+	top: 0px;
+	left: 1px;
+	width: 17.61767578125px;
+	height: 9.3786315917969px;
+}
+
+#group_1465 {
+	top: 525.99993896484px;
+	left: 44.000030517578px;
+	width: 20px;
+	height: 22.856506347656px;
+}
+
+#path_2389 {
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 22.856506347656px;
+}
+
+
+#path_2390 {
+	top: 4px;
+	left: 6px;
+	width: 8.5402221679688px;
+	height: 1.4222412109375px;
+}
+
+
+#path_2391 {
+	top: 9px;
+	left: 3px;
+	width: 11.387390136719px;
+	height: 1.4234008789062px;
+}
+
+
+#path_2392 {
+	top: 11px;
+	left: 3px;
+	width: 11.387390136719px;
+	height: 1.4234008789062px;
+}
+
+
+#path_2393 {
+	top: 14px;
+	left: 3px;
+	width: 11.387390136719px;
+	height: 1.4229736328125px;
+}
+
+
+#path_2394 {
+	top: 658px;
+	left: 43.99951171875px;
+	width: 19.999938964844px;
+	height: 17.781372070312px;
+}
+
+
+#path_2395 {
+	top: 719.00030517578px;
+	left: 43.999969482422px;
+	width: 20px;
+	height: 25.423156738281px;
+}
+
+#group_1466 {
+	top: 787.00012207031px;
+	left: 43.999633789062px;
+	width: 19.999877929688px;
+	height: 19.997436523438px;
+}
+
+#path_2396 {
+	top: 0px;
+	left: 0px;
+	width: 19.999908447266px;
+	height: 19.997436523438px;
+}
+
+
+#ellipse_52 {
+	top: 8px;
+	left: 8px;
+	width: 4.1666374206543px;
+	height: 4.1666259765625px;
+	-ms-border-radius: 2.0833187103271484px / 2.0833187103271484px;
+	-o-border-radius: 2.0833187103271484px / 2.0833187103271484px;
+	-moz-border-radius: 2.0833187103271484px / 2.0833187103271484px;
+	-webkit-border-radius: 2.0833187103271484px / 2.0833187103271484px;
+	border-radius: 2.0833187103271484px / 2.0833187103271484px;
+	background:rgba(255,255,255,255);
+}
+
+#group_1494 {
+	top: 591px;
+	left: 44.000061035156px;
+	width: 20px;
+	height: 21.105224609375px;
+}
+
+#path_2412 {
+	top: 8px;
+	left: 7px;
+	width: 13.283203125px;
+	height: 13.283081054688px;
+}
+
+#group_1492 {
+	top: 0px;
+	left: 0px;
+	width: 15.516418457031px;
+	height: 20.566528320312px;
+}
+
+#path_2413 {
+	top: 0px;
+	left: 0px;
+	width: 15.516418457031px;
+	height: 20.566528320312px;
+}
+
+
+#path_2414 {
+	top: 6px;
+	left: 3px;
+	width: 9.9915771484375px;
+	height: 0.8099365234375px;
+}
+
+
+#path_2415 {
+	top: 13px;
+	left: 3px;
+	width: 3.5616455078125px;
+	height: 0.80987548828125px;
+}
+
+
+#path_2416 {
+	top: 11px;
+	left: 3px;
+	width: 4.217529296875px;
+	height: 0.810302734375px;
+}
+
+
+#path_2417 {
+	top: 8px;
+	left: 3px;
+	width: 6.642822265625px;
+	height: 0.81024169921875px;
+}
+
+
+
+/* Add your custom CSS here */

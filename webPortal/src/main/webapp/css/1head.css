@@ -1,0 +1,408 @@
+﻿/*  Header CSS  */      
+/*  Billy Kim 2020-03-27    */
+/*2020-04-01 font 수정*/
+
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/*  div {
+	position: absolute;
+} */
+
+
+
+
+.head-containerMain div{
+	position: absolute;
+} 
+.head-container {
+	display: table;
+	position: absolute;
+	width: 1920px;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+	left: 0px;
+}
+
+
+
+
+.head_logo {
+	top: 19px;
+	left: 27px;
+	width: 256px;
+	height: 60px;
+	background: transparent url('../images/head_logo.png') 0% 0% no-repeat padding-box;
+	cursor :pointer;
+}
+
+#catchphrase {
+	top: 43px;
+	left: 1111px;
+	width: 205px;
+	height: 38px;
+	overflow: hidden;
+/*
+	font-family: Open Sans;
+	font-size: 12px;
+	*/
+	font: 12px/20px Open Sans;
+	/*font-style: italic;*/
+	letter-spacing: 0;
+	text-align: left;
+	color:#142d53;
+	opacity: 1;
+}
+
+.bookmark_div {
+	top: 46px;
+	left: 1338px;
+	width: 150px;
+	height: 35px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+	cursor :pointer;
+}
+
+
+
+.role_changing_div {
+	top: 46px;
+	left: 1508px;
+	width: 150px;
+	height: 35px;
+	border: 1px solid #707070;
+	background: rgba(255,255,255,255);
+	cursor :pointer;
+}
+
+/*inside bookmark_div*/
+.bookmark_img {
+	top: 6px;
+	left: 22px;
+	width: 15px;
+	height: 23px;
+	background: transparent url('../images/bookmark.png') 0% 0% no-repeat padding-box;
+	cursor :pointer;
+}
+
+/*inside bookmark_div*/
+.my_bookmark {
+	top: 9px;
+	left: 47px;
+	width: 81px;
+	height: 17px;
+	text-align: left;
+	font: normal normal 600 12px/17px "Open Sans";
+	letter-spacing: 0;
+	color: #142D53;
+	opacity: 1;
+	cursor : pointer;
+}
+
+/*inside role_changing_div*/
+.role_changing_img {
+	top: 10px;
+	left: 17px;
+	width: 20px;
+	height: 17px;
+	background: transparent url('../images/role_changing.png') 0% 0% no-repeat padding-box;
+	cursor :pointer;
+}
+
+/*inside role_changing_div*/
+.role_changing {
+	top: 9px;
+	left: 47px;
+	width: 85px;
+	height: 19px;
+	font: normal normal 600 12px/17px "Open Sans";	text-align: left;
+	color:#142d53;
+	cursor :pointer;
+}
+
+.my_img {
+	top: 42px;
+	left: 1678px;
+	width: 42px;
+	height: 43px;
+	background: transparent url('../images/my_img.png') 0% 0% no-repeat padding-box;
+	cursor :pointer;
+}
+ 
+.my_name {
+	top: 52px;
+	left: 1730px;
+	width: 158px;
+	height: 22px;
+/*	font-family: Open Sans;
+	font-size: 1px/2px;
+	font-weight: bold;
+*/
+	font: Bold 16px/22px Open Sans;
+	text-align: left;
+	color: #142d53;
+	letter-spacing: 0;
+
+}
+
+.my_button {
+	top: 64px;
+	left: 1881px;
+	width: 7px;
+	height: 4px;
+	background: #142D53 0% 0% no-repeat padding-box;
+	transform: matrix(-1, 0, 0, -1, 0, 0);
+	opacity: 1;
+	cursor :pointer;
+}
+
+.header_line {
+	top: 100px;
+	left: 24px;
+	width: 1872px;
+	height: 5px;
+	background: transparent url('../images/header_line.png') 0% 0% no-repeat padding-box;
+
+}
+
+.my_menu {
+	width: 200px;
+	height: 158px; 
+	left: 1688px;
+	top: 94px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 2px 2px 3px #33333333;
+	border: 1px solid #EAEAEA;
+}
+
+.my_menu_text {
+	text-align: left;
+	font: 13px/18px Open Sans;
+	letter-spacing: 0;
+	color: #707070;
+	opacity: 1;
+}
+
+.bef_login_img {
+	top: 31px;
+	left: 1389px;
+	width: 496px;
+	height: 55px;
+	background: transparent url('../images/bef_login_img.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/*Top menu*/
+.top_menu {
+	top: 90px;
+	left: 0px;
+	width: 1920px;
+	height: 50px;
+	background: #142D53 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+/*common_topmenu*/
+.top_menu_text {
+	text-align: left;
+	font: Bold 16px Open Sans;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	cursor :pointer;
+}
+
+
+/*Become a Broker*/
+.top_menu_1 {
+	top: 15px;
+	left: 47px;
+	width: 150px;
+	height: 19px;
+	text-align: left;
+	font: Bold 16px Open Sans;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	cursor :pointer;
+}
+
+/*Announcement*/
+.top_menu_2 {
+	top: 15px;
+	left: 217px;
+	width: 110px;
+	height: 19px;
+	text-align: left;
+	font: Bold 16px Open Sans;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	cursor :pointer;	
+}
+
+/*Closing DOC (Scanned Docs)*/
+.top_menu_3 {
+	top: 15px;
+	left: 382px;
+	width: 230px;
+	height: 19px;
+	text-align: left;
+	font: Bold 16px Open Sans;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	cursor :pointer;	
+}
+
+/*About Us*/
+.top_menu_4 {
+	top: 15px;
+	left: 633px;
+	width: 110px;
+	height: 19px;
+	text-align: left;
+	font: Bold 16px Open Sans;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	opacity: 1;
+	cursor :pointer;
+}
+
+/*▼*/
+.path{
+	width: 9px;
+	height: 5px;
+	background: transparent url('../images/path_1.png')no-repeat;
+	background-size : 100%;
+	cursor :pointer;
+}
+
+/*dropdown menu*/
+#announcement_down {
+	top: 140px;
+	left: 197px;
+	width: 150px;
+	height: 150px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 2px 2px 3px #3333334D;
+	border: 1px solid #EAEAEA;
+	opacity: 1;
+	cursor :pointer;
+}
+#announcement_box1 {
+	top: 20px;
+	left: 0px;
+	width: 150px;
+	height: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 2px 2px 3px #3333334D;
+	border: 1px solid #EAEAEA;
+	opacity: 1;
+	cursor :pointer;	
+}
+#announcement_box2 {
+	top: 50px;
+	left: 0px;
+	width: 150px;
+	height: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 2px 2px 3px #3333334D;
+	border: 1px solid #EAEAEA;
+	opacity: 1;
+	cursor :pointer;
+}
+#announcement_box3 {
+	top: 100px;
+	left: 0px;
+	width: 150px;
+	height: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 2px 2px 3px #3333334D;
+	border: 1px solid #EAEAEA;
+	opacity: 1;
+	cursor :pointer;
+}
+.announcement_text {
+	top: 17px;
+	width: 150px;
+	height: 17px;
+	text-align: center;
+	font: Normal 12px/20px Open Sans;
+	letter-spacing: 0;
+	color: #142D53;
+	opacity: 1;
+	cursor :pointer;
+}
+#aboutus_down {
+	top: 140px;
+	left: 591px;
+	width: 150px;
+	height: 200px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 2px 2px 3px #3333334D;
+	border: 1px solid #EAEAEA;
+	opacity: 1;
+	cursor :pointer;
+}
+#aboutus_box1 {
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 2px 2px 3px #3333334D;
+	border: 1px solid #EAEAEA;
+	opacity: 1;
+	cursor :pointer;
+}
+#aboutus_box2 {
+	top: 50px;
+	left: 0px;
+	width: 150px;
+	height: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 2px 2px 3px #3333334D;
+	border: 1px solid #EAEAEA;
+	opacity: 1;
+	cursor :pointer;
+}
+
+#aboutus_box3 {
+	top: 100px;
+	left: 0px;
+	width: 150px;
+	height: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 2px 2px 3px #3333334D;
+	border: 1px solid #EAEAEA;
+	opacity: 1;
+	cursor :pointer;
+}
+#aboutus_box4 {
+	top: 150px;
+	left: 0px;
+	width: 150px;
+	height: 50px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 2px 2px 3px #3333334D;
+	border: 1px solid #EAEAEA;
+	opacity: 1;
+	cursor :pointer;
+}
+.aboutus_text {
+	top: 17px;
+	width: 150px;
+	height: 17px;
+	text-align: center;
+	font: Normal 12px/20px Open Sans;
+	letter-spacing: 0;
+	color: #142D53;
+	opacity: 1;
+	cursor :pointer;
+}
+
