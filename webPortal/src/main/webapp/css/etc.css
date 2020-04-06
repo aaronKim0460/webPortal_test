@@ -1,5 +1,6 @@
-/* Etc */
+﻿/* Etc */
 /*2020-04-02 Billy Kim */
+/*2020-04-06 privacy policy 추가 */
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
@@ -137,3 +138,185 @@
         .catchphrase .pageError .page-image {
             background: url("../images/page-4_img05.jpg") center right no-repeat;
         }
+
+* + p {
+    margin-top: 20px;
+}
+
+
+.contents {
+}
+
+    .contents .privacy-policy ul,
+    .contents .new-broker ul {
+        margin: 10px 70px;
+    }
+
+        .contents .privacy-policy ul li,
+        .contents .new-broker ul li {
+            list-style-type: disc;
+        }
+
+            .contents .privacy-policy ul li a,
+            .contents .new-broker ul li a {
+                text-decoration: underline;
+                color: #24659A;
+            }
+
+    .contents .privacy-policy h4 {
+        margin: 30px 0 15px 0;
+    }
+
+    .contents .orange {
+        font-style: italic;
+        color: #ffcc00;
+    }
+
+    .contents .text-secondary {
+        color: #bf9d5e;
+        font-weight: bold;
+    }
+
+    .contents table {
+        width: 100%;
+    }
+
+        .contents table:not(.k-scheduler-layout):not(.k-scheduler-table) tr:hover:not(.noHoverBgColor) td {
+            background: OldLace;
+            color: #464646;
+        }
+
+    .contents .btn {
+        margin-top: 30px;
+        line-height: 28px;
+        border-radius: 5px;
+        min-width: 100px;
+        text-align: center;
+    }
+
+    .contents .btn-xs {
+        margin: 0;
+        padding: 5px;
+        line-height: 12px;
+        border-radius: 5px;
+        min-width: 44px;
+        font-size: .857em !important;
+        text-decoration: none !important;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+
+        .contents .btn-xs[disabled] {
+            cursor: not-allowed;
+        }
+
+    .contents .modal .btn {
+        margin-top: 3px;
+    }
+
+    .contents input[type=submit] {
+        margin-left: 20px;
+    }
+
+    .contents .contactus-container {
+    }
+
+        .contents .contactus-container .panel-heading {
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-top: 1px solid #ccc;
+            background: White;
+        }
+
+        .contents .contactus-container .panel-body {
+            padding: 0 10px 62px;
+        }
+
+            .contents .contactus-container .panel-body #btnAE, .contents .contactus-container .panel-body #btnEmailNow {
+                cursor: pointer;
+            }
+
+        .contents .contactus-container h3 {
+            font-size: 2em;
+            line-height: 1.6;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .contents .contactus-container ul.contact-method {
+            margin: 10px 30px;
+        }
+
+        .contents .contactus-container .contact-method li {
+            list-style: disc;
+            line-height: 2;
+        }
+
+        .contents .contactus-container table {
+            width: 100%;
+            border: solid 1px #ccc;
+        }
+
+            .contents .contactus-container table tr:hover:not(.noHoverBgColor) td {
+                background: OldLace;
+                color: #464646;
+            }
+
+            .contents .contactus-container table th {
+                background: #e5e5e5;
+            }
+
+            .contents .contactus-container table th, .contents .contactus-container table td {
+                padding: 3px 5px;
+            }
+
+                .contents .contactus-container table th:not(:last-child), .contents .contactus-container table td:not(:last-child) {
+                    border-right: solid 1px #ccc;
+                }
+
+            .contents .contactus-container table th {
+                border-bottom: double 3px #ccc;
+            }
+
+            .contents .contactus-container table tr:not(:last-child) td {
+                border-bottom: solid 1px #ccc;
+            }
+
+            .contents .contactus-container table tr:nth-child(odd) {
+                background-color: #fff;
+            }
+
+            .contents .contactus-container table tr:nth-child(even) {
+                background-color: #f7f7f7;
+            }
+
+        .contents .contactus-container .contact-list h4 {
+            margin-bottom: 10px;
+        }
+
+            .contents .contactus-container .contact-list h4:not(:first-child) {
+                margin-top: 30px;
+            }
+
+    .contents .Under-Construction {
+        margin: auto;
+        width: 800px;
+        height: 500px;
+        background: Url("https://www.amwestfunding.com/Content/images/UnderConstruction.png") no-repeat top left #ffffff;
+        background-size: 400px;
+        padding: 50px 0 0 470px;
+        background-position-x: 70px;
+        background-position-y: 50px;
+    }
+
+        .contents .Under-Construction > div {
+            padding: 150px 0 0 50px;
+        }
+
+            .contents .Under-Construction > div h2 {
+                font-size: 2em;
+                font-weight: 500;
+                line-height: 1;
+                text-transform: uppercase;
+            }
+
