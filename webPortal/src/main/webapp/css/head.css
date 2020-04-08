@@ -1,4 +1,4 @@
-/*  Header CSS  */      
+﻿/*  Header CSS  */      
 /*  Billy Kim 2020-03-27    */
 /*2020-04-01 font 수정*/
 /*2020-04-03 상단부분 위치 수정 */
@@ -6,13 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-/*  div {
+div {
 	position: absolute;
-}  */
-
-.head-containerMain div{
-	position: absolute;
-} 
+}
 
 .head-container {
 	display: table;
@@ -236,3 +232,867 @@
 	cursor :pointer;
 }
 
+/* 로그인창부분*/
+#btnLogin {
+    z-index: 1000;
+}
+
+.loginForm {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+}
+
+.lb-container {
+    height: 420px;
+    background-color: white;
+    border: 2px solid #152d53;
+/*    border: 2px solid #EAEAEA;*/
+    z-index:900;
+}
+
+.lb-frame {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.lb-body {
+    padding: 0 !important;
+    background-color: white;
+    color: #152d53;
+}
+
+.container-login {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+    .container-login h4 {
+        background-color: #152d53;
+        margin: 0 -25px 10px;
+        padding: 20px;
+        color: white;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .container-login .form-field {
+	position:relative;
+        margin: 5px 0;
+        width:324px;
+    }
+
+        .container-login .form-field .form-control {
+            height: 45px;
+            border-color: #152d53;
+            background-color: rgb(232, 240, 254) !important;
+    background-image: none !important;
+    color: -internal-light-dark-color(black, white) !important;
+        }
+
+        .container-login .form-field .control-label {
+            position: relative;
+            z-index: 10;
+            background-color: white;
+            top: 10px;
+            left: 11px;
+            width: 86px;
+            padding: 0 7px;
+            text-align: left;
+        }
+
+        .container-login .form-field input[type=checkbox]:not(old) + input + label {
+            margin-left: -24px;
+        display: inline-block;
+        line-height: 1em;
+        font-weight: normal;
+        width:145px;
+        }
+
+        .container-login .form-field .checkbox {
+            min-height: 24px;
+        }
+
+        .container-login .form-field.action-field {
+            margin: 20px 0 0;
+        }
+
+    .container-login .form-group .btn-primary, .container-login .form-group .btn-danger {
+        margin: 5px 0 0;
+    }
+
+        .container-login .form-group .btn-primary.btn-request {
+            margin-left: 0;
+            width: 324px;
+            line-height: 32px;
+            border-radius: 22px;
+            text-align: center;
+        }
+
+    .container-login .form-errorMessage {
+        height: 46px;
+        margin-top: -5px;
+        padding-right: 10px;
+        color: #8E2533;
+        position:relative;
+    }
+
+    .container-login .has-error label {
+        color: white;
+    }
+
+    .container-login .ForgotPassword:hover {
+        text-decoration: underline;
+    }
+
+.lb-Close {
+    position: absolute;
+    top: 18px;
+    right: 40px;
+    padding: 1px 5px;
+    font-size: 1.426em;
+    line-height: 1.25;
+    cursor: pointer;
+    color: white;
+}
+
+    .lb-Close:hover {
+        background-color: red;
+    }
+
+    .lb-Close img {
+        margin-top: -1px;
+        width: 16px;
+        height: 16px;
+        border: 0;
+    }
+
+.lb-labody {
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container-signin {
+    width: 100%;
+    margin: 50px auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    .container-signin h4 {
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .container-signin .form-field {
+        margin: 10px 0 20px;
+    }
+
+    .container-signin .form-errorMessage {
+        margin-top: -5px;
+        padding-right: 10px;
+    }
+
+    .container-signin .ForgotPassword {
+    }
+
+        .container-signin .ForgotPassword:hover {
+            text-decoration: underline;
+        }
+
+.form-horizontal {
+}
+
+    .form-horizontal .k-dropzone-hovered {
+        background-color: #dbd7d2;
+    }
+
+    .form-horizontal .k-input {
+        color: #464646;
+    }
+
+    .form-horizontal .k-dropdown-wrap {
+        height: 28px;
+    }
+
+        .form-horizontal .k-dropdown-wrap .k-input {
+            line-height: 1.74em;
+        }
+
+    .form-horizontal .k-dropzone em {
+        font-size: 1.5em;
+        color: #24659A;
+    }
+
+    .form-horizontal .form-message {
+        margin: 20px 0 30px;
+    }
+
+    .form-horizontal .has-error .k-dropdown-wrap,
+    .form-horizontal .has-error select,
+    .form-horizontal .has-error .k-picker-wrap {
+        border-color: #dc1431;
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    }
+
+    .form-horizontal .has-error label {
+        color: #dc1431;
+    }
+
+    .form-horizontal .form-control[readonly], .form-horizontal .form-control[readonly]:hover {
+        background-color: #fafafa;
+        border-color: #fafafa;
+    }
+
+    .form-horizontal .text-danger {
+        font-weight: bold;
+    }
+
+    .form-horizontal .form-group .btn-primary, .form-horizontal .form-group .btn-danger, .form-horizontal .form-group .btn-info {
+        margin-left: 20px;
+    }
+
+    .form-horizontal .form-field #errorMessage {
+        margin-top: 35px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .form-horizontal .text-notes {
+        padding: 10px 0 0 30px;
+        white-space: pre-line;
+    }
+
+    .form-horizontal .col-devider {
+        float: left;
+        width: 10%;
+        padding-top: 7px;
+        text-align: center;
+    }
+
+    .form-horizontal .col-half {
+        float: left;
+        width: 45%;
+    }
+
+    .form-horizontal .col-half-fix {
+        width: 50%;
+    }
+
+    .form-horizontal .col-half .form-control[readonly] {
+        background-color: #dbdbdb;
+        border: 1px solid #cccccc;
+        margin-top: 0;
+        margin-left: 10%;
+        width: 90%;
+    }
+
+    .form-horizontal .icon-or {
+        margin-left: -40px;
+    }
+
+    .form-horizontal .icon-or, .form-horizontal .icon-percent {
+        float: left;
+        padding-top: 5px;
+    }
+
+    .form-horizontal .padding-tb-20px {
+        padding: 20px 0;
+    }
+
+    .form-horizontal .padding-20px {
+        padding: 20px !important;
+    }
+
+    .form-horizontal .padding-top-5px {
+        padding-top: 5px !important;
+    }
+
+    .form-horizontal .text-waiver {
+        width: 30%;
+        padding: 4px 0 0 2px;
+        background-color: yellow;
+    }
+
+    .form-horizontal .radio-list {
+        margin-top: 3px;
+    }
+
+        .form-horizontal .radio-list > div {
+            margin-left: 15px;
+        }
+
+    .form-horizontal .letype > label {
+        font-weight: bold;
+        font-size: 1.071em;
+    }
+
+    .form-horizontal .form-top, .form-horizontal .form-top2, .form-horizontal .form-bottom {
+        background-color: #e5e5e5;
+        border: 1px solid #ccc;
+        padding: 5px 0;
+    }
+
+    .form-horizontal .form-top, .form-horizontal .form-top2 {
+        margin-bottom: 20px;
+    }
+
+    .form-horizontal .form-middle {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+    }
+
+        .form-horizontal .form-middle .text-currency {
+            width: 130px;
+        }
+
+        .form-horizontal .form-middle .margin-bottom-10px {
+            margin-bottom: 10px;
+        }
+
+        .form-horizontal .form-middle th:not(:last-child), .form-horizontal .form-middle td:not(:last-child) {
+            border-right: 1px solid #ccc;
+        }
+
+        .form-horizontal .form-middle td.text-left, .form-horizontal .form-middle td div.text-left {
+            padding-left: 5px;
+        }
+
+        .form-horizontal .form-middle td.text-right, .form-horizontal .form-middle th.text-right, .form-horizontal .form-middle td div.text-right {
+            padding-right: 5px;
+        }
+
+    .form-horizontal .secondlien {
+        background-color: #f3f3f3;
+    }
+
+        .form-horizontal .secondlien .form-control[readonly], .form-horizontal .secondlien .form-control[readonly]:hover {
+            background-color: #f3f3f3;
+            border-color: #f3f3f3;
+        }
+
+    .form-horizontal .form-title {
+        background: #dbdbdb;
+        background: -webkit-linear-gradient(#dbdbdb,#b3b0ab);
+        background: -o-linear-gradient(#dbdbdb,#b3b0ab);
+        background: -moz-linear-gradient(#dbdbdb,#b3b0ab);
+        background: linear-gradient(#dbdbdb,#b3b0ab);
+        font-size: 1.143em;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #464646;
+        padding: 7px 15px;
+        border: 1px solid #ccc;
+    }
+
+        .form-horizontal .form-title h2 {
+            font-size: 1.143em;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #464646;
+            padding: 5px 0;
+        }
+
+    .form-horizontal .form-subtitle {
+        height: 34px;
+        background: #d5d5d5;
+        color: #464646;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+        .form-horizontal .form-subtitle th {
+            text-align: center;
+        }
+
+        .form-horizontal .form-subtitle .subtitle-1 {
+            background: #4acad5;
+            color: white;
+            text-align: center;
+        }
+
+        .form-horizontal .form-subtitle .subtitle-2 {
+            background: #fa7b20;
+            color: white;
+            text-align: center;
+        }
+
+    .form-horizontal .pipeline-title, .loanestimate-title, .desktop-underwriting-title {
+        height: 42px;
+        background: #4682B4;
+        background: -webkit-linear-gradient(#4682B4,#24659A);
+        background: -o-linear-gradient(#4682B4,#24659A);
+        background: -moz-linear-gradient(#4682B4,#24659A);
+        background: linear-gradient(#4682B4,#24659A);
+        font-size: 1.143em;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 7px 15px;
+        letter-spacing: 2px;
+    }
+
+        .form-horizontal .pipeline-title h2, .loanestimate-title h2, .desktop-underwriting-title h2 {
+            float: left;
+            font-size: 1.286em;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+            padding: 5px 0;
+        }
+
+    .form-horizontal .form-middle2 {
+        width: 100%;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+    }
+
+        .form-horizontal .form-middle2 .form-sum {
+            background-color: #dbdbdb;
+            margin-bottom: 0;
+            padding: 5px 0;
+        }
+
+    .form-horizontal .tab-content .form-middle2 {
+        margin: 0;
+        float: left;
+        padding: 10px;
+    }
+
+        .form-horizontal .tab-content .form-middle2 table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+    .form-horizontal .tab-content .modal-body {
+        width: 600px;
+        margin-top: 0;
+    }
+
+    .form-horizontal .form-bottom {
+        margin: 40px 0;
+    }
+
+        .form-horizontal .form-bottom .title {
+            padding: 10px;
+            font-size: 1.143em;
+        }
+
+    .form-horizontal .form-detailinfo .form-group {
+        margin: 5px 0;
+    }
+
+    .form-horizontal .pricing-scenario {
+        width: 100%;
+        min-width: 1200px;
+    }
+
+        .form-horizontal .pricing-scenario .noHoverBgColor > td {
+            width: 50%;
+            vertical-align: top;
+        }
+
+            .form-horizontal .pricing-scenario .noHoverBgColor > td:first-child {
+                border-right: 1px solid #ccc;
+                padding-right: 7.5px;
+            }
+
+            .form-horizontal .pricing-scenario .noHoverBgColor > td:last-child {
+                padding-left: 7.5px;
+            }
+
+            .form-horizontal .pricing-scenario .noHoverBgColor > td h4 {
+                margin: 5px auto 10px;
+                padding: 3px 0;
+                text-align: center;
+                background: #647a92;
+                background: -webkit-linear-gradient(#647a92,#3c4959);
+                background: -o-linear-gradient(#647a92,#3c4959);
+                background: -moz-linear-gradient(#647a92,#3c4959);
+                background: linear-gradient(#647a92,#3c4959);
+                color: white;
+            }
+
+        .form-horizontal .pricing-scenario .form-group {
+            margin: 0;
+        }
+
+            .form-horizontal .pricing-scenario .form-group .control-label {
+                padding-top: 0;
+            }
+
+    .form-horizontal .pricingforlock-container .pricing-scenario {
+        min-width: 950px;
+    }
+
+    .form-horizontal .form-top .form-control[readonly] {
+        margin-top: 6px;
+    }
+
+    .form-horizontal .form-textarea {
+        height: auto !important;
+    }
+
+    .form-horizontal .control-label {
+        font-weight: bold;
+    }
+
+    .form-horizontal .form-top2 {
+        padding: 10px 0;
+    }
+
+        .form-horizontal .form-top2 .btn {
+            margin-top: 0;
+        }
+
+    .form-horizontal .text-currency, .form-horizontal .text-decimal {
+        text-align: right;
+    }
+
+        .form-horizontal .text-currency[readonly] {
+            text-align: left;
+        }
+
+    .form-horizontal .form-bottom .bottom-line {
+        border-bottom: 1px solid white;
+    }
+
+    .form-horizontal .form-bottom .right-line {
+        border-right: 1px solid white;
+    }
+
+    .form-horizontal .row-selected {
+        background: #d8bfd8 !important;
+    }
+
+    .form-horizontal .PreSelected {
+        background-color: Wheat !important;
+    }
+
+        .form-horizontal .PreSelected > td {
+            border-top: 2px solid SteelBlue;
+            border-bottom: 2px solid SteelBlue;
+        }
+
+            .form-horizontal .PreSelected > td:first-child {
+                border-left: 2px solid SteelBlue;
+            }
+
+            .form-horizontal .PreSelected > td:last-child {
+                border-right: 2px solid SteelBlue;
+            }
+
+    .form-horizontal #LockRequestForm {
+        margin-top: 40px;
+        display: none;
+    }
+
+    .form-horizontal .uploadfilemessage {
+        padding: 30px 15px;
+    }
+
+        .form-horizontal .uploadfilemessage .allowmessage {
+            margin: 20px 0;
+        }
+
+            .form-horizontal .uploadfilemessage .allowmessage span {
+                color: Blue;
+                background-color: #FFFF99;
+            }
+
+    .form-horizontal .uploadfilemessage2 {
+        margin: 37px 0 0 -50px;
+    }
+
+    .form-horizontal .k-state-hover {
+        border-color: #24659A !important;
+        background: #ffffff !important;
+    }
+
+    .form-horizontal input:not([readonly]):not([disabled]):not(.input-validation-error):not(.btn):hover, .form-horizontal select:hover {
+        border-color: #24659A;
+    }
+
+    .form-horizontal #LoanNumberForSearch {
+        color: #24659A !important;
+    }
+
+    .form-horizontal .compensation-selection {
+    }
+
+        .form-horizontal .compensation-selection .fa-check {
+            display: none;
+        }
+
+        .form-horizontal .compensation-selection .selected {
+            color: #940303;
+            text-decoration: underline;
+        }
+
+            .form-horizontal .compensation-selection .selected .fa-check {
+                display: inline-block;
+                text-decoration: none;
+            }
+
+    .form-horizontal .form-detailinfo {
+        margin-top: 0;
+    }
+
+        .form-horizontal .form-detailinfo .control-label, .form-horizontal .form-compensation .control-label {
+            padding-top: 0;
+        }
+
+        .form-horizontal .form-detailinfo .pipelineForm .control-label {
+            padding-top: 5px;
+        }
+
+        .form-horizontal .form-detailinfo .AdditionalOption {
+            margin-top: -5px;
+        }
+
+            .form-horizontal .form-detailinfo .AdditionalOption div {
+                margin-top: 5px;
+            }
+
+    .form-horizontal .form-not {
+        background: #f0ffff;
+        background: -webkit-linear-gradient(#b0e0e6,#f0ffff);
+        background: -o-linear-gradient(#b0e0e6,#f0ffff);
+        background: -moz-linear-gradient(#b0e0e6,#f0ffff);
+        background: linear-gradient(#b0e0e6,#f0ffff);
+        padding: 15px;
+        margin: 10px 0 20px;
+        border: 1px solid #ccc;
+        color: #24659A;
+    }
+
+    .form-horizontal .sub-title {
+        background: #dfdfdf;
+        padding: 7px 15px;
+        border: 1px  solid #ccc;
+        color: #24659A;
+        text-transform: uppercase;
+        font-size: 1.071em;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+        .form-horizontal .sub-title .w-icon {
+            background-image: url('/Content/images/ui-icons-primary.png');
+            background-color: transparent;
+            border-color: transparent;
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            font-size: 0;
+            line-height: 0;
+            opacity: 1;
+            text-align: center;
+        }
+
+        .form-horizontal .sub-title .w-info {
+            background-position: -17px -141px;
+        }
+
+        .form-horizontal .sub-title .text-required {
+            font-size: 1em;
+            text-transform: capitalize;
+            font-weight: normal;
+            letter-spacing: 1px;
+            padding-right: 0 !important;
+            text-align: right;
+        }
+
+    .form-horizontal .sub-title2 {
+        background: #dfdfdf;
+        padding: 7px 15px;
+        font-size: 1.15em;
+        font-weight: bold;
+        border-bottom: 1px solid #ccc;
+        color: #24659A;
+    }
+
+    .form-horizontal .form-compensation {
+        padding-top: 15px;
+    }
+
+    .form-horizontal .bg-summary {
+        background: #647a92;
+        background: -webkit-linear-gradient(#647a92,#3c4959);
+        background: -o-linear-gradient(#647a92,#3c4959);
+        background: -moz-linear-gradient(#647a92,#3c4959);
+        background: linear-gradient(#647a92,#3c4959);
+    }
+
+    .form-horizontal .bg-pending {
+        background: #B8860B;
+        background: -webkit-linear-gradient(#4682b4,#191970);
+        background: -o-linear-gradient(#4682b4,#191970);
+        background: -moz-linear-gradient(#4682b4,#191970);
+        background: linear-gradient(#4682b4,#191970);
+    }
+
+    .form-horizontal .bg-registration {
+        background: #B8860B;
+        background: -webkit-linear-gradient(#B8860B,#E5A912);
+        background: -o-linear-gradient(#B8860B,#E5A912);
+        background: -moz-linear-gradient(#B8860B,#E5A912);
+        background: linear-gradient(#B8860B,#E5A912);
+    }
+
+    .form-horizontal .text-item {
+        padding-top: 3px;
+    }
+
+    .form-horizontal .text-item2 .form-control {
+        padding-left: 0;
+    }
+
+    .form-horizontal .adnewuser-container .control-label {
+        padding-top: 0;
+    }
+
+    .form-horizontal .comment-attachment .attachment-container {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        display: inline-block;
+        *display: inline;
+        vertical-align: top;
+        padding-top: 5px;
+    }
+
+        .form-horizontal .comment-attachment .attachment-container .attachment-label i {
+            display: none;
+        }
+
+        .form-horizontal .comment-attachment .attachment-container .attachment-label span {
+            display: none;
+        }
+
+        .form-horizontal .comment-attachment .attachment-container a.attach-file {
+            display: block;
+        }
+
+        .form-horizontal .comment-attachment .attachment-container input {
+            opacity: 0;
+            filter: alpha(opacity=0);
+            font-size: 20px;
+            cursor: pointer;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            width: 100%;
+            height: 30px;
+            z-index: 1;
+            padding: 0;
+            margin: 0;
+        }
+
+    .form-horizontal .comment-attachment .remove-attachment {
+        display: none;
+    }
+
+    .form-horizontal .comment-attachment.file-selected .attachment-container .attachment-label i {
+        display: inline-block;
+        position: relative;
+        vertical-align: baseline;
+        margin-right: 5px;
+    }
+
+    .form-horizontal .comment-attachment.file-selected .attachment-container .attachment-label span {
+        display: inline-block;
+        line-height: 26px;
+        padding-right: 10px;
+        color: #2080ad;
+    }
+
+    .form-horizontal .comment-attachment.file-selected .attachment-container a.attach-file {
+        display: none;
+    }
+
+    .form-horizontal .comment-attachment.file-selected .remove-attachment {
+        display: inline-block;
+        padding-top: 5px;
+        font-weight: bold;
+        color: #999;
+        font-size: 14px;
+        text-decoration: none;
+        vertical-align: top;
+        line-height: 26px;
+        height: 26px;
+    }
+
+.no-padding .col-xs-1, .no-padding .col-sm-1, .no-padding .col-md-1, .no-padding .col-lg-1, .no-padding .col-xs-2, .no-padding .col-sm-2, .no-padding .col-md-2, .no-padding .col-lg-2, .no-padding .col-xs-3, .no-padding .col-sm-3, .no-padding .col-md-3, .no-padding .col-lg-3, .no-padding .col-xs-4, .no-padding .col-sm-4, .no-padding .col-md-4, .no-padding .col-lg-4, .no-padding .col-xs-5, .no-padding .col-sm-5, .no-padding .col-md-5, .no-padding .col-lg-5, .no-padding .col-xs-6, .no-padding .col-sm-6, .no-padding .col-md-6, .no-padding .col-lg-6, .no-padding .col-xs-7, .no-padding .col-sm-7, .no-padding .col-md-7, .no-padding .col-lg-7, .no-padding .col-xs-8, .no-padding .col-sm-8, .no-padding .col-md-8, .no-padding .col-lg-8, .no-padding .col-xs-9, .no-padding .col-sm-9, .no-padding .col-md-9, .no-padding .col-lg-9, .no-padding .col-xs-10, .no-padding .col-sm-10, .no-padding .col-md-10, .no-padding .col-lg-10, .no-padding .col-xs-11, .no-padding .col-sm-11, .no-padding .col-md-11, .no-padding .col-lg-11, .no-padding .col-xs-12, .no-padding .col-sm-12, .no-padding .col-md-12, .no-padding .col-lg-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+input[type=checkbox]:not(old),
+input[type=radio ]:not(old) {
+    width: 1.7em;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    opacity: 0;
+}
+	     input[type=radio]:not(old) + label > span,
+        input[type=checkbox]:not(old) + input + label > span {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            margin: 0.25em 0.5em 0 0.25em;
+            border: 0.0625em solid rgb(192,192,192);
+            border-radius: 0.25em;
+            background: rgb(255,255,255);
+            background-image: -moz-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+            background-image: -ms-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+            background-image: -o-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+            background-image: -webkit-linear-gradient(rgb(255,255,255),rgb(255,255,255));
+            background-image: linear-gradient(rgb(255,255,255),rgb(255,255,255));
+            vertical-align: bottom;
+        }
+
+
+    input[type=checkbox]:not(old):checked + input + label > span:before {
+        content: '✓';
+        display: block;
+        width: 1em;
+        color: rgb(24, 137, 167);
+        font-size: 0.875em;
+        line-height: 1em;
+        text-align: center;
+        text-shadow: 0 0 0.0714em rgb(22, 107, 131);
+        font-weight: bold;
+    }
+    
+@media (max-width: 767px) {
+    .btn {
+        line-height: 23px;
+        padding: 5px 20px 5px 20px;
+    }
+}
+
+
+#mask, #canvasloader-mask {
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #a9a9a9;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    display: none;
+}

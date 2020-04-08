@@ -53,11 +53,22 @@
 				$("#my_name").show();
 				
 				
-				
-		
+	
 
 			}
-			
+
+			/*로그인창 컨트롤 by billy kim */
+			function fnLoginform(val) {
+				if (val == 'enable') {
+					$("#loginForm").show();
+					$("#mask").show();
+				}
+				else if (val == 'disable') {
+					$("#loginForm").hide();
+					$("#mask").hide();
+				}
+			}
+
 			
 			 /* kimbc  start */
 			
@@ -357,6 +368,58 @@
 <!--hide after login-->
 	        <div class="bef_login_img" id="bef_login_img">
 	        </div>
+	        
+<!--로그인form 시작-->
+<div id="test" onclick="fnLoginform('enable')" style="left: 1761px; top: 33px; width: 120px; height: 52px;"></div>
+		<div id="loginForm" class="lb-container" style="width: 378px;top:90px;left:1510px;display:none;">
+			<div class="container-login no-padding">
+			    <h4>APPROVED USER LOGIN</h4>
+			    <div class="col-md-12">
+			        <div id="loginForm">
+						<form action="/Account/Login" class="form-horizontal" id="myForm" method="post" novalidate="novalidate" style="width: 324px;height: 308px;color:#152d53;"><input name="__RequestVerificationToken" type="hidden" value="Kejsl_OPjBEw7Jwo3HwrvtzbfX3BADLRkVaDS7DyKtgFFhLoaAghuG8-IeTX4Kh7aFzawmXQZaF9UUx4ew2xWOwcnl4mtwqW59EwsjGc4qc1">                <div class="form-group form-field">
+	                    <div class="control-label">Username</div>
+	                    <div class="col-xs-12">
+                        <input class="form-control" data-val="true" data-val-issafeparam="The field Username is invalid." data-val-length="The field Username must be a string with a maximum length of 50." data-val-length-max="50" data-val-required="The Username field is required." id="Username" name="Username" type="text" value="test.broker">
+                    </div>
+                </div>
+                <div class="form-group form-field">
+                    <div class="control-label">Password</div>
+                    <div class="col-xs-12">
+                        <input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" type="password">
+                    </div>
+                </div>
+                <div class="form-group form-field action-field">
+                    <div class="col-xs-7">
+                        <a class="ForgotPassword" href="/Account/Reset-Password" target="_top">Forgot password?</a>
+                        <div class="checkbox">
+                            <input checked="checked" id="RememberMe" name="RememberMe" type="checkbox" value="true"><input name="RememberMe" type="hidden" value="false">
+                            <label for="RememberMe"><span><span></span></span> Remember Me</label>
+                        </div>
+                    </div>
+                    <div class="col-xs-5 text-right">
+                        <button type="submit" id="btnLoginSubmit" class="btn btn-danger" style="line-height: 23px;padding: 5px 20px 5px 20px;">Login <span class="fa fa-arrow-circle-right"></span></button>
+                    </div>
+                </div>
+                <div class="form-group form-field">
+                    <div class="col-xs-12 text-center">
+                        <div class="form-errorMessage">
+                            &nbsp;
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group form-field">
+                    <div class="col-xs-12">
+                        <a href="/Account/ApplyBroker" target="_top" class="btn btn-primary btn-request">Request Contact from AmWest</a>
+                    </div>
+                </div>
+</form>        </div>
+    </div>
+
+		</div>
+</div>
+<div id="mask" style="display:block none;z-index:550;" onclick="fnLoginform('disable')"></div>
+<!--로그인form 끝-->	        
+
 				 <div class="menu" id="top_menu">
 
 					<ul>
